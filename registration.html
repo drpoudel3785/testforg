@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+	<table border="0" width="960px" align="center" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2">
+			<img src="images/newbanner.jpg" alt='banner' title="Banner" width="960"/>
+		</td>
+	</tr>
+	<tr>
+		<td width="20%" valign="top">
+			<table border="0" cellspacing="5" cellpadding="5"  width="100%">
+				<tr>
+					<td>HOme</td>
+				</tr>
+				<tr>
+					<td>About</td>
+				</tr>
+				<tr>
+					<td>Download</td>
+				</tr>
+				<tr>
+					<td>Contact</td>
+				</tr>
+			</table>
+		</td>
+		<td valign="top">
+			
+			
+		<form action="#" name="login" method="POST">
+			<fieldset>
+				<legend>Registratoin</legend>
+				<label>Username</label>
+				<input type="text" name="username" size="25" required="required" placeholder="Username" maxlength="50" /><br/>
+				<label>Password</label>
+				<input type="password" name="password" size="25" required="required" placeholder="Password" maxlength="50" /><br/>
+
+
+				<label>Email</label>
+				<input type="email" name="email" placeholder="you@domain.com" required="required" />
+				<br/>
+
+				<label>Courses</label>
+				<input type="checkbox" name="php" value="php" checked="checked" />PHP
+				<input type="checkbox" name="java" value="java"/>Java
+				<input type="checkbox" name="dotnet" value="dotnet"/>.net
+				<br/> 
+
+				<label>Gender</label>
+				<input type="radio" name="gender" value="male"  />Male
+				<input type="radio" name="gender" value="female" checked="checked"/> Female
+				<input type="radio" name="gender" value="other"  />Other
+				<br/>
+
+				<label>Say Hello</label>
+				<input type="button" onclick="alert('Good Morning');" value="Goodmorning" />
+				<br/>
+
+				<label>Close Form</label>
+				<input type="button" onclick="window.close();" value="Close this page" />
+				<br/>
+
+				<label>Your Photo</label>
+				<input type="file" name="photo"/>
+				<br/>
+
+				<input type="hidden" name="name" value="dharma"/>
+				<label>County</label>
+				<select>
+					<option value="Nepal">Nepal</option>
+					<option value="India">India</option>
+					<option value="China">China</option>
+					<option value="Bhutal">Nepal</option>
+
+
+
+				</select>
+
+
+				<input type="submit" name="submit" value="Register">
+				<input type="reset" name="reset" value="Clear">
+			</fieldset>
+		</form>
+		</td>
+	<tr>
+		<td colspan="2">Footer</td>
+	</tr>
+</table>
+</body>
+</html>
