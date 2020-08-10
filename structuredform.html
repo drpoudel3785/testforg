@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>Registration Form Example with Table</title>
+</head>
+<body>
+	<form method="POST" name="regForm" action="#" enctype="multipart/form-data">
+		<table border="1" cellpadding="5" cellspacing="5" width="650px">
+			<tr>
+				<td width="200px"><label>Enter First Name</label></td>
+				<td><input type="text" name="fname" size="25" placeholder="enter your first name" required="required" maxlength="30" /></td>
+			</tr>
+			<tr>
+				<td><label>Upload your Pic</label></td>
+				<td><input type="file" name="upic"/>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<input type="submit" name="submit" value="Save My Data" />
+					<input type="reset" name="reset" value="Reset Data" />
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
