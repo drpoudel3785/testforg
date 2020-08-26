@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
   *{
       margin:0px;
       padding:0px;
@@ -16,22 +18,38 @@
 .box{
     width:200px;
     border:2px solid #ff0000;
+    border-radius:0px 20px 30px 5px;
     height:200px;
     float:left;
-    margin:5px;
+    margin: 0px 20px 10px 20px;
+    padding: 10px;
+}
+
+.circle{
+    border-radius:50%;
+    width:25px;
+    height:25px;
+    background-color: #ffcc00;
+    float:left;
+    margin:3px;
+}
+.centertext{
+    padding:10px;
 }
 /* id Selector */
 #container{
     width:1140px;
     margin:auto auto;
-    border:1px groove #eeeeee; 
+    border-left:5px double #eeeeee; 
+    border-right:5px groove #eeeeee; 
     min-height: 1500px;
 }
 /* Grouping Selector */
 h1, h2, h3, h4, h5, h6{
     font-variant: small-caps;
     font-weight: bolder;
-    color:#ffcc00
+    color:#ffcc00;
+    font-family: "Indie Flower";
 }
 
 h1{ font-size:25px; }
@@ -58,3 +76,13 @@ ul.menu li a {margin: 10px;	text-decoration: none;}
 
 #banner{width:1140px; background-color:#cccccc;}
 #banner>h1{font-size:40px; color:green;}
+
+.scroll{
+    overflow:scroll;
+}
+.hidden{
+    overflow:hidden;
+}
+.auto {
+    overflow:auto;
+}
