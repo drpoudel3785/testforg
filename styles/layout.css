@@ -1,0 +1,17 @@
+*{ margin:0px; padding:0px;}
+body{ background-color: #cccccc;}
+#wrapper{width:1140px; min-height:800px; margin:auto auto; background-color: #eeeeee;}
+.row{ min-height:10px;}
+.col100{width:100%;}
+.col50{width:50%;float:left;}
+.col33{ width:33.33%; float:left;}
+.col25{ width:25%; float:left;}
+.clear{ clear:both;}
+.box{width:95%; margin:5px; padding:5px; border:1px solid #4e4e4e;}
+h1{letter-spacing: 10px; columns: #030303; font-size:23px; text-transform: uppercase;}
+.oldprice{text-decoration: line-through;}
+
+ul {list-style:none; background-color:#f3f3f3; float:right;}
+ul li{display: inline-block;}
+ul li a{ display:block; padding: 10px 25px;  color:#333; text-decoration: none;}
+ul li a:hover{color:#333; background:#3fe345}
