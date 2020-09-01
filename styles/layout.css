@@ -15,3 +15,24 @@ ul {list-style:none; background-color:#f3f3f3; float:right;}
 ul li{display: inline-block;}
 ul li a{ display:block; padding: 10px 25px;  color:#333; text-decoration: none;}
 ul li a:hover{color:#333; background:#3fe345}
+.fourcolumn{
+    width:270px;
+    height:auto;
+    border-right:3px solid #4e4e4e;
+    border-bottom: 3px solid #4e4e4e;
+    opacity:0.7;
+    position:relative;
+    top:20px;
+    bottom:20px;
+}
+.fourcolumn:hover{opacity:1}
+#social{position:fixed; top:150px; width:50px; min-height:150px; background:#ff0000;right:0px;}
+#social ul{list-style: none;}
+#social ul li{color:#4e4e4e;}
+
+.box1{width:200px; height:200px; border-radius:50%; background-color:#cecece; position:absolute; z-index:5556;}
+.box2{width:120px; height:120px; background-color:#bfbcf0;z-index:5555;position:absolute;}
+
+.auto{overflow:auto; width:270px; height:256px;}
+.scroll{overflow:scroll; width:270px; height:256px;}
+.hidden{overflow:hidden; width:270px; height:256px;}
