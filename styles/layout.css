@@ -36,3 +36,19 @@ ul li a:hover{color:#333; background:#3fe345}
 .auto{overflow:auto; width:270px; height:256px;}
 .scroll{overflow:scroll; width:270px; height:256px;}
 .hidden{overflow:hidden; width:270px; height:256px;}
+
+.responsive{width:100%; height:auto;}
+
+@media screen and (max-width:768px)
+{
+    body{ background-color:red;}
+    #wrapper{width:740px;}
+    .colmd100{width:100%;}
+    .colmd50{width:50%; float:left;}
+}
+
+@media screen and (max-width:480px){
+    body{ background-color: green;}
+    #wrapper{width:450px;}
+    .colsm100{width:100%;}
+}
