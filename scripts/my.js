@@ -1,3 +1,14 @@
+//String functions
+
+var myText="Javascript";
+document.write("<br/>"+myText.length);
+document.write("<br/>"+myText.charAt(4));
+document.write("<br/>"+myText.indexOf('v'));
+document.write("<br/>"+myText.substr(0,4));
+document.write("<br/>"+myText.toUpperCase(myText));
+document.write("<br/>"+myText.toLowerCase(myText));
+
+
 var da = new Date();
 var year = da.getFullYear();
 var dayt =da.getDay();
@@ -109,3 +120,31 @@ for ( i = 1; i <= 5; i++ ){
   }
     document.write("<br/>");
 }
+
+//function with parameter and no return type;
+function add(x, y){
+    sum=x + y;
+    document.write("<br/>The sum of "+ x + " and " + y +" is: "+sum);
+}
+
+
+function sub(x, y)
+{
+    sub= x - y;
+    return sub;
+}
+
+var a="5";
+var b=5;
+sum=eval(a)+eval(b);
+document.write("<br><h1>The sum is "+sum + "</h1>");
+
+
+//dom manipulation
+document.getElementById("error").innerHTML="<h1>Hello I am error<h1>";
+
+
+var myImages = new Array("images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg", "images/5.jpg" , "images/6.jpg");
+
+var ranNumber =Math.floor(Math.random()* myImages.length);
+document.getElementById("myImages").src=myImages[ranNumber];
