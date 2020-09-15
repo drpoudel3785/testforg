@@ -143,8 +143,43 @@ document.write("<br><h1>The sum is "+sum + "</h1>");
 //dom manipulation
 document.getElementById("error").innerHTML="<h1>Hello I am error<h1>";
 
-
 var myImages = new Array("images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg", "images/5.jpg" , "images/6.jpg");
 
 var ranNumber =Math.floor(Math.random()* myImages.length);
 document.getElementById("myImages").src=myImages[ranNumber];
+
+function admissionOpen(){
+    //alert("Admission Open for Sept Intake");
+    
+}
+
+function validateForm(){
+   // alert("Form Submitted");
+   //Taking User INpouts Value
+   var uname = document.login.user.value;
+   var upass = document.login.pass.value;
+   if(uname == "" && upass == "") {
+       document.getElementById("error").innerHTML = "Username and password is required ";
+       document.login.user.focus();
+       return false;
+   }
+    return true;
+}
+
+	function random(number) {
+	       return Math.floor(Math.random() * (number+1));
+	}
+	function changeBgColor() {
+	      var rCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ') ';
+	      document.body.style.backgroundColor = rCol;
+    }
+
+    function red(){
+    document.body.style.backgroundColor = "#ff0000";
+    }
+
+    //color:rgb(255,25,78)
+
+
+
+

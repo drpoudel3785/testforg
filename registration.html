@@ -28,19 +28,19 @@
 			</table>
 		</td>
 		<td valign="top">
+			<div id="signUpError" style="color:red"></div>
 			
-			
-		<form action="#" name="login" method="POST">
+		<form action="#" name="signup" method="POST" onsubmit="return singUp()">
 			<fieldset>
 				<legend>Registratoin</legend>
 				<label>Username</label>
-				<input type="text" name="username" size="25" required="required" placeholder="Username" maxlength="50" /><br/>
+				<input type="text" name="username" size="25"  placeholder="Username" maxlength="50" /><br/>
 				<label>Password</label>
-				<input type="password" name="password" size="25" required="required" placeholder="Password" maxlength="50" /><br/>
+				<input type="password" name="password" size="25"  placeholder="Password" maxlength="50" /><br/>
 
 
 				<label>Email</label>
-				<input type="email" name="email" placeholder="you@domain.com" required="required" />
+				<input type="text" name="email" placeholder="you@domain.com" />
 				<br/>
 
 				<label>Courses</label>
@@ -93,5 +93,7 @@
 		<td colspan="2">Footer</td>
 	</tr>
 </table>
+
+<script src="scripts/signup.js"></script>
 </body>
 </html>
